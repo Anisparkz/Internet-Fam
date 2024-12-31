@@ -1,0 +1,60 @@
+body { background-color: #36393f;
+    color: #ffff;
+    background-image:url("images/bg.gif");
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+     line-height: 2;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     overflow-x: hidden; }
+
+    .overlay{ background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.8));
+        border-radius: 10px;}
+    .mainhead{text-align: center;
+        font-size: 3.25rem;
+        padding: 3.25rem;}
+    .text1 { text-align: center;
+            padding: 25px;
+            font-size: 2.25rem;}
+            .text2{ text-align:center;
+                font-size: 1.25rem ;
+            padding: 25px;}
+                button {
+                    padding: 10px 20px;
+                    text-transform: uppercase;
+                    border-radius: 8px;
+                    font-size: 3.2rem;
+                    font-weight: 500;
+                    color: #ffffff;
+                    text-shadow: none;
+                    background: transparent;
+                    cursor: pointer;
+                    box-shadow: transparent;
+                    transition: 0.5s ease;
+                    user-select: none;
+                    margin: auto;
+                    display: block;
+                  }
+            
+                  #btn:hover,
+                  :focus {
+                    color: #ffffff;
+                    background: #5865f2ab;
+                    border: 1px solid #5865f2ab;
+                    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+                    box-shadow: 0 0 5px #5865f2ab, 0 0 20px #5865f2ab, 0 0 50px #5865f2ab,
+                      0 0 100px #5865f2ab;
+                  }
+                  .text3 { text-align: center;
+                    font-size: 2.25rem;
+                padding: 2rem;}
+    .promo{ text-align: center;}
+    footer {
+        text-align: center;
+        padding: 5px;
+        font-size: 0.75rem;
+        color: #ffff;
+        border-radius: 5px 5px 15px 15px;
+       }
+    
