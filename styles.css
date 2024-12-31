@@ -10,7 +10,7 @@ body { background-color: #36393f;
      overflow-x: hidden; }
 
     .overlay{ background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.8));
-        border-radius: 10px;}
+        border-radius: 0.4rem;}
     .mainhead{text-align: center;
         font-size: 3.25rem;
         padding: 3.25rem;}
@@ -18,10 +18,10 @@ body { background-color: #36393f;
             padding: 25px;
             font-size: 2.25rem;}
             .text2{ text-align:center;
-                font-size: 1.25rem ;
-            padding: 25px;}
+                font-size: 2rem ;
+            padding: 2rem;}
                 button {
-                    padding: 10px 20px;
+                    padding: 1rem 2rem;
                     text-transform: uppercase;
                     border-radius: 8px;
                     font-size: 3.2rem;
@@ -47,7 +47,7 @@ body { background-color: #36393f;
                       0 0 100px #5865f2ab;
                   }
                   .text3 { text-align: center;
-                    font-size: 1.2rem;
+                    font-size: 2rem;
                 padding: 2rem;}
     .promo{ text-align: center;}
     footer {
@@ -60,7 +60,7 @@ body { background-color: #36393f;
        @media only screen and (max-width: 650px){
        body{background-attachment: fixed;}
        .mainhead{text-align: center;
-        font-size: 2.75rem;
+        font-size: 2.5rem;
         padding: 3.25rem;}
     .text1 { text-align: center;
             padding: 25px;
